@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="shortcut icon" href="https://aploi.de/favicon.ico" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <meta name="description" content="Ufficiale">
+        <title id="ttl">Zio pera...</title>
+        <link rel="stylesheet" href="./zio-pera/css.css" media="screen">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=M+PLUS+2:wght@450&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    </head>
+    <body onload="zio()">
+        <div class="main">
+        <div class="parte-1">
+            <div class="txt" id="txt">
+            </div>
+            <div class="btn">
+                <button class="button" role="button" onclick="zio()"><span class="text">Un'altro</span></button>
+            </div>
+        </div>
+        <div class="parte-2">
+            <div class="div-1">
+                Made with ❤️ by <a class="cxrlo" href="https://github.com/aploide/ufficiale-gen">Cxrlo</a>
+            </div>
+        </div>
+        </div>
+        <script>
+            var test= document.getElementById('txt');
+            var ttl= document.getElementById('ttl');
+            var per= ["Malcolm X "
+ ,"Martin Luther King "
+ ,"Anthony Quinn "
+ ,"Ben Kingsley "
+ ,"Brad Pitt "
+ ,"Bud Spencer "
+ ,"Cary Grant "
+ ,"Charlie Sheen "
+ ,"Christian De Sica "
+ ,"Chuck Norris "
+ ,"Danny DeVito "
+ ,"Eddie Murphy "
+ ,"Eric Rohmer "
+ ,"Fred Astaire "
+ ,"Gabriel Garko "
+ ,"Gary Cooper "
+ ,"Gene Wilder "
+ ,"Jerry Calà "
+ ,"Jerry Lewis "
+ ,"John Wayne "
+ ,"Kevin Spacey "
+ ,"Kirk Douglas "
+ ,"Lillo "
+ ,"Lino Banfi "
+ ,"Martin Sheen "
+ ,"Michael Caine "
+ ,"Michael J. Fox "
+ ,"Michael Keaton "
+ ,"Nicolas Cage "
+ ,"Omar Sharif "
+ ,"Romy Schneider "
+ ,"Terence Hill "
+ ,"The Rock "
+ ,"Tim Robbins "
+ ,"Tom Cruise "
+ ,"Totò "
+ ,"Vin Diesel "
+ ,"Walter Chiari "
+ ,"Walter Matthau "
+ ,"Woody Allen "
+ ,"Zac Efron "
+ ,"Adua Del Vesco "
+ ,"Angelina Jolie "
+ ,"Audrey Hepburn "
+ ,"Bo Derek "
+ ,"Brigitte Bardot "
+ ,"Carmen Elettra "
+ ,"Demi Moore "
+ ,"Franca Valeri "
+ ,"Ginger Rogers "
+ ,"Greta Garbo "
+ ,"Jennifer Aniston "
+ ,"Jodie Foster "
+ ,"Leda Gys "
+ ,"Lory Del Santo "
+ ,"Marilyn Monroe "
+ ,"Meg Ryan "
+ ,"Mel Brooks "
+ ,"Olivia Wilde "
+ ,"Ornella Muti "
+ ,"Poppy Montgomery "
+ ,"Rita Hayworth "
+ ,"Sandra Milo "
+ ,"Serena Grandi "
+ ,"Tea Leoni "
+ ,"Veronica Lario "
+ ,"Whoopi Goldberg "
+ ,"Winona Ryder "
+ ,"Zendaya "
+ ,"Kaká "
+ ,"Pelé "
+ ,"50 Cent "
+ ,"Adamo "
+ ,"Adele "
+ ,"Aka7even "
+ ,"Al Bano "
+ ,"Aleandro Baldi "
+ ,"Alexia "
+ ,"Alice "
+ ,"Alice Cooper "
+ ,"Alicia Keys "
+ ,"Alizée "
+ ,"Anastacia "
+ ,"Andrea Mirò "
+ ,"Andy  "
+ ,"Anggun "
+ ,"Anna Oxa "
+ ,"Annalisa "
+ ,"Antoine "
+ ,"Ariete "
+ ,"Arisa "
+ ,"Astol "
+ ,"Axl Rose "
+ ,"B.o.B "
+ ,"Baby Gang "
+ ,"Ballo  "
+ ,"Baltimora "
+ ,"Barry Manilow "
+ ,"Beck "
+ ,"Ben E. King "
+ ,"Bianca Atzei "
+ ,"Billie Eilish "
+ ,"Billy Idol "
+ ,"Björk "
+ ,"Blanco "
+ ,"Bob Dylan "
+ ,"Bobby Solo "
+ ,"Bonnie Tyler "
+ ,"Bono Vox  "
+ ,"Boy George "
+ ,"Bracco Di Graci "
+ ,"Bruno Mars "
+ ,"Brunori Sas "
+ ,"Bungaro "
+ ,"Busta Rhymes "
+ ,"Calcutta "
+ ,"Calibi "
+ ,"Caparezza "
+ ,"Carlotta "
+ ,"Caro Emerald "
+ ,"Cat Stevens "
+ ,"Cee Lo Green "
+ ,"Cesareo  "
+ ,"Charles Aznavour "
+ ,"Charlie "
+ ,"Cheope "
+ ,"Cher "
+ ,"Christian "
+ ,"Claudia Mori "
+ ,"Claudio Villa "
+ ,"Colapesce "
+ ,"Compay Segundo "
+ ,"Cosmo "
+ ,"Cyndi Lauper "
+ ,"Dalida "
+ ,"David Bowie "
+ ,"Dean Martin "
+ ,"Deddy "
+ ,"Dee D. Jackson "
+ ,"Den Harrow "
+ ,"Dente "
+ ,"Dido "
+ ,"Dino "
+ ,"Ditonellapiaga "
+ ,"DJ Jad  "
+ ,"Dodi Battaglia "
+ ,"Dolcenera "
+ ,"Don Backy "
+ ,"Don Ray "
+ ,"Donatello "
+ ,"Donna Summer "
+ ,"Dr. Dre "
+ ,"Drake "
+ ,"Drupi "
+ ,"Duffy "
+ ,"Ed Sheeran "
+ ,"Edith Piaf "
+ ,"Elio  "
+ ,"Elisa "
+ ,"Eliza Doolittle "
+ ,"Elodie "
+ ,"Elton John "
+ ,"Elvis Costello "
+ ,"Eminem "
+ ,"Emis Killa "
+ ,"Emma "
+ ,"Enya "
+ ,"Enzo Jannacci "
+ ,"Er Piotta "
+ ,"Fabio Rovazzi "
+ ,"Faso  "
+ ,"Fatboy Slim "
+ ,"Feiez  "
+ ,"Fergie "
+ ,"Fiordaliso "
+ ,"Fish  "
+ ,"Flea  "
+ ,"Flo Rida "
+ ,"Flo Sandon’s "
+ ,"Frank Sinatra "
+ ,"Frankie HI NRG MC "
+ ,"Freak Antoni "
+ ,"Fred Bongusto "
+ ,"Fred De Palma "
+ ,"Freddie Mercury "
+ ,"Gabry  "
+ ,"Garbo "
+ ,"Gary Low "
+ ,"Gatto Panceri "
+ ,"Gazebo "
+ ,"Gazzelle "
+ ,"George Michael "
+ ,"Gepy  "
+ ,"Geri Halliwell "
+ ,"Ghigo  "
+ ,"Gian Pieretti "
+ ,"Gianni Morandi "
+ ,"Giorgia "
+ ,"Giorgio Gaber "
+ ,"Giovanna "
+ ,"Giuni Russo "
+ ,"Giusy Ferreri "
+ ,"Guardiano Del Faro "
+ ,"Hevia "
+ ,"Highsnob "
+ ,"Hozier "
+ ,"Ice Cube "
+ ,"Iggy Pop "
+ ,"Irama "
+ ,"Isabella Iannetti "
+ ,"Ivan Graziani "
+ ,"Jason Derülo "
+ ,"Jay Z "
+ ,"Jeffrey Jay  "
+ ,"Dj Papera"
+ ,"Lupo Lucio"
+ ,"Strega Varana"
+ ,"Jenny B "
+ ,"Jimmy Fontana "
+ ,"Jo Squillo "
+ ,"Joe Cocker "
+ ,"Joe Sarnataro "
+ ,"Joe Strummer "
+ ,"John Legend "
+ ,"Johnny Dorelli "
+ ,"Johnny Hallyday "
+ ,"Jon Bon Jovi "
+ ,"Jovanotti "
+ ,"JRM  "
+ ,"K.C.  "
+ ,"Katy Perry "
+ ,"Kaya Pezz8  "
+ ,"Ke$ha "
+ ,"Kid Rock "
+ ,"Kylie Minogue "
+ ,"Lady Gaga "
+ ,"Lana del Rey "
+ ,"Lena Biolcati "
+ ,"Levante "
+ ,"Ligabue "
+ ,"Lil Wayne "
+ ,"Limahl "
+ ,"Lisa "
+ ,"Little Richard "
+ ,"Little Steven "
+ ,"Little Tony "
+ ,"Lou Reed "
+ ,"Madame "
+ ,"Madonna "
+ ,"Mahmood "
+ ,"Mal "
+ ,"Maluma "
+ ,"Mango "
+ ,"Manu Chao "
+ ,"Marco Armani "
+ ,"Maria Callas "
+ ,"Marilyn Manson "
+ ,"Marina Rei "
+ ,"Mario Biondi "
+ ,"Marracash "
+ ,"Massimo Ranieri "
+ ,"Maury  "
+ ,"Max Gazzè "
+ ,"Max Pezzali "
+ ,"Meat Loaf "
+ ,"Meg  "
+ ,"Mel B  "
+ ,"Mel C  "
+ ,"Mia Martini "
+ ,"Michael Bolton "
+ ,"Michele "
+ ,"Mietta "
+ ,"Miguel Bosè "
+ ,"Mika "
+ ,"Millefinestre  "
+ ,"Milva "
+ ,"Mina "
+ ,"Mino Reitano "
+ ,"Mirella Freni "
+ ,"Moby "
+ ,"Moltheni "
+ ,"Moony "
+ ,"Morgan "
+ ,"Muddy Waters "
+ ,"Nada "
+ ,"Natalino Otto "
+ ,"Ne-Yo "
+ ,"Neffa "
+ ,"Neja "
+ ,"Nek "
+ ,"Nelly "
+ ,"Nicki Minaj "
+ ,"Nico dei Gabbiani "
+ ,"Nico Fidenco "
+ ,"Nicola Di Bari "
+ ,"Nilla Pizzi "
+ ,"Nina Zilli "
+ ,"Nino Ferrer "
+ ,"Noa "
+ ,"Noelia "
+ ,"Noemi "
+ ,"Ombretta Colli "
+ ,"Orietta Berti "
+ ,"Ozuna "
+ ,"P.Lion "
+ ,"Pacifico "
+ ,"Paola e Chiara "
+ ,"Patty Pravo "
+ ,"Peppino Di Capri "
+ ,"Peter Tosh "
+ ,"Pietra Montecorvino "
+ ,"Pink "
+ ,"Pitbull "
+ ,"Plan B "
+ ,"Plastic Bertrand "
+ ,"Prince "
+ ,"Pupo "
+ ,"Raf "
+ ,"Red Canzian "
+ ,"Renato dei Profeti "
+ ,"Renato Rascel "
+ ,"Renato Zero "
+ ,"Richard Anthony "
+ ,"Ricky Gianco "
+ ,"Ricky Martin "
+ ,"Ricky Shayne "
+ ,"Rihanna "
+ ,"Riki "
+ ,"Ringo Starr "
+ ,"Rita Ora "
+ ,"Robert Miles "
+ ,"Robertino "
+ ,"Roby Crispiano "
+ ,"Roby Facchinetti "
+ ,"Rocco Hunt "
+ ,"Ron "
+ ,"Roy Paci "
+ ,"Ryan Paris "
+ ,"Sade "
+ ,"Sananda Maitreya "
+ ,"Sandie Shaw "
+ ,"Sandra "
+ ,"Sangiovanni "
+ ,"Scialpi "
+ ,"Shaggy "
+ ,"Shakira "
+ ,"Shania Twain "
+ ,"Shel Shapiro  "
+ ,"Sia "
+ ,"Skardy  "
+ ,"Skin  "
+ ,"Snoop Dogg "
+ ,"Snoop Lion "
+ ,"Spagna "
+ ,"Stash  "
+ ,"Stefano Rosso "
+ ,"Steven Tyler "
+ ,"Stevie Wonder "
+ ,"Sting "
+ ,"Suzi Quatro "
+ ,"Syria "
+ ,"Tata Giacobetti "
+ ,"Teddy Reno "
+ ,"The Edge  "
+ ,"Tina Turner "
+ ,"Tinie Tempah "
+ ,"Tom Hooker "
+ ,"Tom Jones "
+ ,"Tonino Carotone "
+ ,"Tony Dallara "
+ ,"Tony Effe "
+ ,"Tony Renis "
+ ,"Tosca "
+ ,"Toto Cutugno "
+ ,"Tracy Spencer "
+ ,"Tricky "
+ ,"Ugolino "
+ ,"Ultimo "
+ ,"Usher "
+ ,"Valerie Dore "
+ ,"Van Morrison "
+ ,"Viola Valentino "
+ ,"Wess "
+ ,"Yuyu "
+ ,"Yves Montand "
+ ,"Zaz "
+ ,"Zucchero "
+ ,"Zulù  "
+ ,"Ana Mena "
+ ,"Thony "
+ ,"Miley Ray Cyrus  "
+ ,"Daiano "
+ ,"Frah Quintale "
+ ,"Franco Battiato "
+ ,"Franco126 "
+ ,"Maldestro "
+ ,"Tananai "
+ ,"Sconsolata "
+ ,"Checco Zalone "
+ ,"Gene Gnocchi "
+ ,"Herbert Ballerina "
+ ,"James Tont "
+ ,"Maccio Capatonda "
+ ,"Mago Forrest "
+ ,"Teo Teocoli "
+ ,"Rudy Zerbi "
+ ,"Chef Rubio "
+ ,"Avicii "
+ ,"Dj Albertino "
+ ,"Dj Angelo "
+ ,"Dj Da Silva "
+ ,"Dj Danger "
+ ,"Dj La Pina "
+ ,"DJ Linus "
+ ,"Dj Molella "
+ ,"Dj Molinaro "
+ ,"Dj Prezioso "
+ ,"Dj Ringo "
+ ,"Dj Simone Girasole "
+ ,"Gabry Ponte "
+ ,"Nikki "
+ ,"Promiseland "
+ ,"Provenzano DJ "
+ ,"Wender "
+ ,"Mago Otelma "
+ ,"Bonvi "
+ ,"Gipi "
+ ,"Makkox "
+ ,"Max Bunker "
+ ,"Silver "
+ ,"Sio "
+ ,"Zerocalcare "
+ ,"David Copperfield "
+ ,"Mago Silvan "
+ ,"J.L. Marshall "
+ ,"Walt Disney "
+ ,"Taylor Mega "
+ ,"Rocco Tanica "
+ ,"Mogol "
+ ,"All Might "
+ ,"Harley Quinn "
+ ,"Amadeus "
+ ,"Barbara d’Urso "
+ ,"Carmen Russo "
+ ,"Corona "
+ ,"Eva Robins "
+ ,"Fiorello "
+ ,"Frank Matano "
+ ,"Jerry Scotti "
+ ,"Klaus Davi "
+ ,"Leone di Lernia "
+ ,"Mago Zurlì "
+ ,"Mike Bongiorno "
+ ,"Pif "
+ ,"Platinette "
+ ,"Raffaella Carrà "
+ ,"Siusy Blady "
+ ,"Violetta "
+ ,"Vladimir Luxuria "
+ ,"Zoro "
+ ,"Larry King "
+ ,"Ollio "
+ ,"Stanlio  "
+ ,"Pablo Picasso "
+ ,"Marco Pannella "
+ ,"Rocco Siffredi "
+ ,"Cicciolina "
+ ,"Jessica Rizzo "
+ ,"Malena la Pugliese "
+ ,"Moana Pozzi "
+ ,"Selen "
+ ,"Achille Lauro "
+ ,"Baby K "
+ ,"Capo Plaza "
+ ,"Cardi B "
+ ,"Carl Brave "
+ ,"Clementino "
+ ,"Coez "
+ ,"Dargen D’Amico "
+ ,"Ernia "
+ ,"Fabri Fibra "
+ ,"Fedez "
+ ,"Gemitaiz "
+ ,"Geolier "
+ ,"Ghali "
+ ,"Ghemon "
+ ,"Guè Pequeno "
+ ,"Hell Raton "
+ ,"J Lord "
+ ,"J-Ax "
+ ,"Jake La Furia "
+ ,"Ketama126 "
+ ,"Massimo Pericolo "
+ ,"Neima Ezza "
+ ,"Nesli "
+ ,"Paky "
+ ,"Pop Smoke "
+ ,"Puff Daddy "
+ ,"Raige "
+ ,"Rkomi "
+ ,"Rondodasosa "
+ ,"Rosa Chemical "
+ ,"Salmo "
+ ,"Sfera Ebbasta "
+ ,"Shiva "
+ ,"Taxi B "
+ ,"Tha Supreme "
+ ,"Travis Scott "
+ ,"Vale Pain "
+ ,"VillaBanks "
+ ,"Willie Peyote "
+ ,"Spike Lee "
+ ,"Alberto Moravia "
+ ,"Italo Svevo "
+ ,"Stendhal "
+ ,"Trilussa "
+ ,"Daniele Luttazzi "
+ ,"Fabio Volo "
+ ,"Melissa P. "
+ ,"Alvin Karpis "
+ ,"Baby Face "
+ ,"Billy the kid "
+ ,"Brava donna di Loudon "
+ ,"Cartouche "
+ ,"Casco d’oro "
+ ,"Frà Diavolo "
+ ,"Frate Leotade "
+ ,"Gasparone "
+ ,"Il canaro "
+ ,"Il cannibale di Rostov "
+ ,"Il Macellaio di Hannover "
+ ,"Il mostro del Tevere "
+ ,"Il mostro di Firenze "
+ ,"Il mostro di Milwaukee "
+ ,"Il mostro di Roma "
+ ,"il Passator cortese "
+ ,"Il Vampiro di Dussurdolf "
+ ,"Il vampiro di Sacramento "
+ ,"la Brinivillies "
+ ,"La saponificatrice di Correggio "
+ ,"La vedova dannosa "
+ ,"Lo squartatore di pastori "
+ ,"Lo strangolatore di Boston "
+ ,"Orchessa della Goutte d’Or "
+ ,"Pierrot il folle "
+ ,"Pretty Boy "
+ ,"Schinderhannes "
+ ,"Air Jordan "
+ ,"Beach Boy "
+ ,"Black Mamba "
+ ,"Chad Ochocinco "
+ ,"Durantula "
+ ,"Kareem Abdul-Jabbar "
+ ,"King James, The Chosen One "
+ ,"l’uomo-pesce "
+ ,"l’uragano del Baltico "
+ ,"la locomotiva umana "
+ ,"Magic Johnson "
+ ,"Metta World Peace "
+ ,"Muhammad Ali "
+ ,"Rocky Marciano "
+ ,"ilBaddi "
+ ,"ilMasseo "
+ ,"Er Gennaro "
+ ,"Khaby Lame "
+ ,"Mura "
+ ,"Nello Taver "
+ ,"Niko Pandetta "
+ ,"Il Musazzi "
+ ,"John Cena "
+ ,"Undertaker "
+ ,"Hulk Hogan "
+ ,"Mr. T "
+ ,"Anima "
+ ,"Bellafaccia "
+ ,"Cicciogamer89 "
+ ,"CutiePieMarzia "
+ ,"Favij "
+ ,"Homyatol "
+ ,"IlvostrocaroDexter "
+ ,"Jok3r "
+ ,"LaSabriGamer "
+ ,"Lyon "
+ ,"Octy "
+ ,"St3pNy "
+ ,"SurrealPower "
+ ,"Teknoyd "
+ ,"Violetta Rocks "
+ ,"Willwoosh "
+ ,"Yotobi "];
+            var sqd= ['ATALANTA'
+ ,'BOLOGNA'
+ ,'CAGLIARI'
+ ,'EMPOLI'
+ ,'FIORENTINA'
+ ,'GENOA'
+ ,'INTER'
+ ,'JUVENTUS'
+ ,'LAZIO'
+ ,'MILAN'
+ ,'NAPOLI'
+ ,'ROMA'
+ ,'SALERNITANA'
+ ,'SAMPDORIA'
+ ,'SASSUOLO'
+ ,'SPEZIA'
+ ,'TORINO'
+ ,'UDINESE'
+ ,'VENEZIA'
+ ,'VERONA'
+ ,'ALESSANDRIA'
+ ,'ASCOLI'
+ ,'BENEVENTO'
+ ,'BRESCIA'
+ ,'CITTADELLA'
+ ,'COMO'
+ ,'COSENZA'
+ ,'CREMONESE'
+ ,'CROTONE'
+ ,'FROSINONE'
+ ,'LECCE'
+ ,'MONZA'
+ ,'PARMA'
+ ,'PERUGIA'
+ ,'PISA'
+ ,'PORDENONE'
+ ,'REGGINA'
+ ,'SPAL'
+ ,'TERNANA'
+ ,'VICENZA'
+ ,'ARSENAL'
+ ,'ASTON VILLA'
+ ,'BRENTFORD'
+ ,'BRIGHTON'
+ ,'BURNLEY'
+ ,'CHELSEA'
+ ,'CRYSTAL PALACE'
+ ,'EVERTON'
+ ,'LEEDS'
+ ,'LEICESTER'
+ ,'LIVERPOOL'
+ ,'MAN. CITY'
+ ,'MAN. UNITED'
+ ,'NEWCASTLE'
+ ,'NORWICH CITY'
+ ,'SOUTHAMPTON'
+ ,'TOTTENHAM'
+ ,'WATFORD'
+ ,'WEST HAM'
+ ,'WOLVES'
+ ,'ALAVES'
+ ,'ATHLETIC BILBAO'
+ ,'ATLETICO MADRID'
+ ,'BARCELLONA'
+ ,'BETIS SIVIGLIA'
+ ,'CADICE'
+ ,'CELTA VIGO'
+ ,'ELCHE'
+ ,'ESPANYOL'
+ ,'GETAFE'
+ ,'GRANADA'
+ ,'LEVANTE'
+ ,'MAIORCA'
+ ,'OSASUNA'
+ ,'RAYO VALLECANO'
+ ,'REAL MADRID'
+ ,'REAL SOCIEDAD'
+ ,'SIVIGLIA'
+ ,'VALENCIA'
+ ,'VILLARREAL'
+ ,'A. BIELEFELD'
+ ,'AUGSBURG'
+ ,'B. DORTMUND'
+ ,"B. M'GLADBACH"
+ ,'BAYER LEVERKUSEN'
+ ,'BAYERN MONACO'
+ ,'BOCHUM'
+ ,'COLONIA'
+ ,'E. FRANCOFORTE'
+ ,'FRIBURGO'
+ ,'GREUTER FURTH'
+ ,'HERTHA BERLINO'
+ ,'HOFFENHEIM'
+ ,'LIPSIA'
+ ,'MAINZ'
+ ,'STOCCARDA'
+ ,'UNION BERLINO'
+ ,'WOLFSBURG'
+ ,'ANGERS'
+ ,'BORDEAUX'
+ ,'BREST'
+ ,'CLERMONT'
+ ,'LENS'
+ ,'LILLE'
+ ,'LORIENT'
+ ,'METZ'
+ ,'MONACO'
+ ,'MONTPELLIER'
+ ,'NANTES'
+ ,'NIZZA'
+ ,'OL. LIONE'
+ ,'OL. MARSIGLIA'
+ ,'PSG'
+ ,'REIMS'
+ ,'RENNES'
+ ,'SAINT ETIENNE'
+ ,'STRASBURGO'
+ ,'TROYES'
+ ,'AJAX'
+ ,'AZ ALKMAAR'
+ ,'CAMBUUR'
+ ,'FEYENOORD'
+ ,'FORTUNA SITTARD'
+ ,'GO AHEAD EAGLES'
+ ,'GRONINGEN'
+ ,'HEERENVEEN'
+ ,'HERACLES ALMELO'
+ ,'N.E.C.'
+ ,'PEC ZWOLLE'
+ ,'PSV'
+ ,'RKC WAALWIJK'
+ ,'SPARTA ROTTERDAM'
+ ,'TWENTE'
+ ,'UTRECHT'
+ ,'VITESSE'
+ ,'WILLEM II'
+ ,'ABERDEEN'
+ ,'CELTIC'
+ ,'DUNDEE'
+ ,'DUNDEE UNITED'
+ ,'HEARTS'
+ ,'HIBERNIAN'
+ ,'LIVINGSTON'
+ ,'MOTHERWELL'
+ ,'RANGERS'
+ ,'ROSS COUNTY'
+ ,'ST. JOHNSTONE'
+ ,'ST. MIRREN'
+ ,'EMPOLI FEMMINILE'
+ ,'FC TURRIS'
+ ,'ERCOLANESE'
+ ,"PROPERCELLI"
+ ,'FIORENTINA FEMMINILE'
+ ,'INTER FEMMINILE'
+ ,'JUVENTUS FEMMINILE'
+ ,'LAZIO FEMMINILE'
+ ,'MILAN FEMMINILE'
+ ,'NAPOLI FEMMINILE'
+ ,'POMIGLIANO FEMMINILE'
+ ,'ROMA FEMMINILE'
+ ,'SAMPDORIA FEMMINILE'
+ ,'SASSUOLO FEMMINILE'
+ ,'VERONA FEMMINILE'];
+            function zio() {
+                test.innerHTML = "Ufficiale "+ per[Math.floor(Math.random() * per.length)]+ "al " + sqd[Math.floor(Math.random() * sqd.length)]+ " HAHAHAHAHAHAHAH";
+                ttl.innerHTML = test.innerHTML;}
+        </script>
+        </body>
+</html>
