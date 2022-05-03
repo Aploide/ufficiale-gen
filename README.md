@@ -1,3 +1,3 @@
 # ufficiale-gen
-ufficiale
-(link)[https://dev.aploi.de/ufficiale]
+ufficiale,  
+[link diretto](https://dev.aploi.de/ufficiale)
